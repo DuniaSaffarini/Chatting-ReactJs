@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.msg {
+    padding-left: 3%;
+    vertical-align: middle;
+    height: 50%;
+    padding-top: 3%;
+}

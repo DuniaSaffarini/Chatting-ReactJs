@@ -1,0 +1,13 @@
+.mainChat-container {
+    float: left;
+    height: 404px;
+    width: 509.6px;
+    border: 1px solid black;
+}
+
+.mainChat-container-inactive {
+    float: left;
+    height: 409px;
+    width: 702.2px;
+    border: 1px solid black;
+}

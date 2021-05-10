@@ -1,0 +1,31 @@
+.nav-menu {
+    border: 1px solid black;
+  width: 250px;
+  height:410px;
+  justify-content: center;
+  position: fixed;
+  top: 159;
+  right: -100%;
+  transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    right: 0;
+    transition: 350ms;
+  }
+
+  .menu-bars {
+ 
+    font-size: 2rem;
+    background: none;
+    width: 10px;
+    height: 10px;
+  }
+
+  .sideBar-container{
+      position: relative;
+    float: right;
+    height: 410px;
+    width: 8%;
+    border: 1px solid black;
+  }

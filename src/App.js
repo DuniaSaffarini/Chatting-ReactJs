@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { createContext } from 'react';
+
+import Welcoming from './components/Welcoming';
+import MainChat from './components/MainChat';
+import Message from './components/Message';
+
 import './App.css';
+   export const UserInfo = createContext({});
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="MainScreen">
+      <div>
+        <UserInfo.Provider value={{ name: 'Dunia', age: '23' }}>
+          <div>
+            <Welcoming />
+
+          </div>    
+        <div>
+          <MainChat />
+        </div>
+        <Message />
+        </UserInfo.Provider>
+      </div>
     </div>
   );
 }
