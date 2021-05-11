@@ -1,18 +1,21 @@
 .senderBackground {
     border-radius: 25px;
     border: 2px solid #65695f;
-    width: 20%;
+    width: 30%;
     height: 7%;
     padding-top: 5px;
     padding-left: 15px;
     padding-bottom: 0px;
     margin: 19px;
     float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65%;
 }
 
 .receiverBackground {
     border-radius: 25px;
-    width: 20%;
+    width: 30%;
     height: 7%;
     padding-top: 5px;
     padding-left: 15px;
@@ -22,3 +25,4 @@
     border: 2px solid #65695f;
 
 }
+

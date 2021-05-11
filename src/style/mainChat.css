@@ -1,12 +1,25 @@
+.mainChat {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainChat-msgs {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .mainChat-container {
-    float: left;
     height: 404px;
-    width: 509.6px;
+    display: flex;
     border: 1px solid black;
+    border-right: 0;
+    border-top: 0;
 }
 
 .mainChat-container-inactive {
-    float: left;
     height: 409px;
     width: 702.2px;
     border: 1px solid black;

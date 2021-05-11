@@ -1,31 +1,48 @@
-.nav-menu {
-    border: 1px solid black;
-  width: 250px;
-  height:410px;
-  justify-content: center;
-  position: fixed;
-  top: 159;
-  right: -100%;
+.side-menu {
+  opacity: 0;
+}
+
+.side-menu.active {
+  transition: 3000ms;
+  opacity: 1;
+}
+
+.menu-bars {
+  margin-top: 10px;
+  margin-left: 16px;
+  font-size: 25px;
+  background: none;
+  width: 10px;
+  height: 10px;
+}
+
+.sideBar-container {
+  height: 410px;
+  width: 60px;
   transition: 850ms;
-  }
-  
-  .nav-menu.active {
-    right: 0;
-    transition: 350ms;
-  }
+  border: 1px solid black;
+  border-top: 0;
+}
 
-  .menu-bars {
- 
-    font-size: 2rem;
-    background: none;
-    width: 10px;
-    height: 10px;
-  }
+.sideBar-container.active {
+  width: 250px;
+  transition: 850ms;
+}
 
-  .sideBar-container{
-      position: relative;
-    float: right;
-    height: 410px;
-    width: 8%;
-    border: 1px solid black;
-  }
+.age {
+  margin-top: 10px;
+  margin-left: 20px
+}
+
+.age-padding {
+  padding-right: 30px
+}
+
+.name {
+  margin-top: 40px;
+  margin-left: 20px
+}
+
+.name-padding {
+  padding-right: 15px
+}

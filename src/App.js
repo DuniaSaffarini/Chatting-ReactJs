@@ -5,7 +5,7 @@ import MainChat from './components/MainChat';
 import Message from './components/Message';
 
 import './App.css';
-   export const UserInfo = createContext({});
+export const UserInfo = createContext({});
 
 function App() {
 
@@ -16,11 +16,8 @@ function App() {
           <div>
             <Welcoming />
 
-          </div>    
-        <div>
+          </div>
           <MainChat />
-        </div>
-        <Message />
         </UserInfo.Provider>
       </div>
     </div>

@@ -1,13 +1,13 @@
 import React from 'react'
 import "../style/img.css";
-export default function ImageProfile(props) {
+export default function ImageProfile({ size }) {
     return (
         <div>
-            {props.size === "sidebar" &&
-                <div className="sidebarIcon"></div>
+            {size === "sidebar" &&
+                <div className="sidebarIcon" />
             }
-             {props.size === "profile" &&
-                <div className="profileIcon"></div>
+            {size === "profile" &&
+                <div className="profileIcon" />
             }
         </div>
     )

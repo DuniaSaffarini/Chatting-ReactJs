@@ -2,6 +2,15 @@
     border: 1px solid black;
     border-top-width: 0px;
 }
-textarea:focus, input:focus{
+
+textarea:focus, input:focus {
     outline: none;
+}
+
+.msgText {
+    height: 50px;
+    width: 97%;
+    border: 0px;
+    font-Size: 17px;
+    margin-left: 16px;
 }
