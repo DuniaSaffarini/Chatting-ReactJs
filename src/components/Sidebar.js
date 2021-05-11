@@ -8,7 +8,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import "../style/Sidebar.css";
 
 export default function Sidebar() {
-    const [sidebar, setSidebar] = useState(false);
+    const [sidebar, setSidebar] = useState(true);
     const showSidebar = () => setSidebar(!sidebar);
     const userInfo = useContext(UserInfo);
 
